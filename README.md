@@ -1,0 +1,2 @@
+# Sunspot-Detection
+Sunspots are dark spots on the sun, associated with lower temperature. Time-series predictions using the sunspots dataset with TensorFlow. Used a stack of 1D convolution with 32 filters output to a couple of LSTMs with 32 cells each fed into a DNN to quantify the occurrence of future sunspots. Time series forecasting achieved a smooth decreasing loss tangent and a MAE of 15.04%.
